@@ -1,0 +1,24 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background: url(Pdf-to-word-696x392.png) no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  margin: 20px auto;
+  text-align: center;
+}
+
+#resultContainer {
+  text-align: center;
+  margin: 20px auto;
+}
+
+#downloadLink {
+  
+}

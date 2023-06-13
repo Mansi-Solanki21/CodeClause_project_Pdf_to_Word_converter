@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>PDF to Word Converter</title>
+  <link rel="stylesheet" type="text/css" href="new.css">
+  <script src="new.js"></script>
+</head>
+<body>
+  <h1 style="font-size: 40px; border-bottom: 2px solid black; border-top: 2px solid black;"><p style="color: red; display: inline-block;">PDF</p> to <p style="color: blue; display: inline-block;">Word</p> <br> Converter</h1>
+  <form id="uploadForm" enctype="multipart/form-data">
+    <input type="file" id="pdfFile" name="pdfFile" accept=".pdf" required style="font-size: 20px;">
+    <button type="submit" style="font-size: 20px; ">Convert</button>
+  </form>
+  <div id="resultContainer">
+    <a id="downloadLink"><button style="font-size: 25px; color: white; background-color: black; filter: opacity(70%); border-radius: 10px;">Download</button></a>
+  </div>
+</body>
+</html>
